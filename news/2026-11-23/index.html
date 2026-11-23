@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 新闻日报 2026年11月23日 - 小智的窝</title>
+  <meta name="description" content="2026年11月23日 AI 新闻日报：AITNT 30 条、HN 8 条、GitHub Trending 8 个、arXiv 6 篇。">
+  <meta name="keywords" content="AI新闻,人工智能,AI日报,大模型,AIGC,2026-11-23">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ruofeng-song.github.io/ai-news-daily/news/2026-11-23/">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <style>
+.item {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 16px 22px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    transition: border-color 0.2s;
+}
+.item:hover { border-color: #1a73e8; }
+.tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+}
+.tag-hot { background: #fef2f2; color: #dc2626; }
+.tag-new { background: #f0fdf4; color: #16a34a; }
+.tag-money { background: #fefce8; color: #ca8a04; }
+.tag-model { background: #eff6ff; color: #2563eb; }
+.tag-tool { background: #f5f3ff; color: #7c3aed; }
+.tag-cn { background: #fef2f2; color: #b91c1c; }
+.tag-law { background: #f0f9ff; color: #0369a1; }
+
+.item h3 { font-size: 1rem; margin-bottom: 4px; font-weight: 600; }
+.item h3 a { color: #1a1a2e; text-decoration: none; }
+.item h3 a:hover { color: #1a73e8; text-decoration: underline; }
+.item p { font-size: 0.88rem; color: #555; line-height: 1.6; margin-bottom: 4px; }
+.item .meta { font-size: 0.78rem; color: #999; }
+.item .meta a { color: #1a73e8; text-decoration: none; }
+.item .meta a:hover { text-decoration: underline; }
+
+.section-label {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 28px 0 14px;
+    padding: 10px 0 8px;
+    border-bottom: 3px solid;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.section-label.latest { border-color: #dc2626; color: #dc2626; }
+.section-label.tool { border-color: #7c3aed; color: #7c3aed; }
+.section-label.quick { border-color: #ca8a04; color: #ca8a04; }
+.section-label.overview { border-color: #2563eb; color: #2563eb; }
+.section-label.quote { border-color: #16a34a; color: #16a34a; }
+.section-desc { font-size: 0.82rem; color: #888; margin-top: -8px; margin-bottom: 16px; }
+
+.banner-box {
+    background: linear-gradient(135deg, #fef2f2, #fff7ed);
+    border: 1px solid #fecaca;
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-bottom: 24px;
+}
+.banner-box h2 { font-size: 1rem; color: #dc2626; margin-bottom: 8px; }
+.banner-box li { padding: 2px 0; font-size: 0.9rem; color: #444; }
+
+.tool-spotlight {
+    background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+    border: 1px solid #c4b5fd;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+}
+.tool-spotlight h3 { font-size: 1.05rem; color: #5b21b6; margin-bottom: 6px; }
+.tool-spotlight p { font-size: 0.9rem; color: #4c1d95; line-height: 1.6; }
+.tool-spotlight .meta { font-size: 0.8rem; color: #7c3aed; margin-top: 6px; }
+
+.quick-item {
+    background: #fafafa;
+    border-radius: 6px;
+    padding: 8px 14px;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+    color: #444;
+}
+.quick-item .date { color: #aaa; font-size: 0.78rem; }
+
+.quote-box {
+    background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+    border: 1px solid #6ee7b7;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+.quote-box .text { font-size: 1rem; color: #065f46; line-height: 1.7; }
+.quote-box .author { font-size: 0.85rem; color: #047857; margin-top: 8px; font-style: normal; }
+
+.cat-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 24px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #2563eb;
+    color: #1a1a2e;
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="container">
+    <a href="https://ruofeng-song.github.io/my-site/" class="logo">🐕 小智的窝</a>
+    <div class="nav-links">
+      <a href="/ai-news-daily/news/">📰 AI 新闻</a>
+      <a href="https://ruofeng-song.github.io/my-site/notes/">📝 工作心得</a>
+      <a href="https://ruofeng-song.github.io/my-site/music/">🎵 AI 音乐</a>
+      <a href="https://ruofeng-song.github.io/my-site/about.html">ℹ️ 关于</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-header">
+  <div class="container">
+    <p style="font-size:0.8rem;color:#aab;margin-bottom:4px;">v0.0.3 · 2026年11月23日 星期一</p>
+    <h1>🤖 AI 新闻日报</h1>
+    <p>由 AI 自动采编 · 涵盖模型 / 工具 / 资本 / 生态</p>
+  </div>
+</section>
+
+<section class="container">
+  <div class="banner-box">
+    <h2>🔥 今日热点</h2>
+    <ul><li>Google发布Gemini 4 Neon，定位兼顾能力、速度与成本，编程、知识工作与科研接近旗舰水平。</li><li>Lean FRO与Mathlib认证Claude参与的黎曼猜想形式化证明，1700万行Lean代码通过独立内核检查。</li><li>TML开源Inkling 2 Mini权重，循环Transformer加混合专家，26B总参数、100万token上下文，支持笔记本本地运行。</li><li>Linq获a16z领投9000万美元B轮，估值10亿美元，押注AI Agent绕开App连接用户与企业系统。</li><li>镁伽科技完成近2亿美元融资，资金用于核心技术研发与全球业务，建设面向真实世界的AI智能基础设施。</li></ul>
+  </div>
+
+  <div class="section-label latest">📡 本周要闻</div>
+  <div class="section-desc">一周最新动态 · 点击标题查看原文</div>
+  <div class="item">
+  <span class="tag tag-hot">🔥 头条</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31485" target="_blank" rel="noopener">给 Gemini 道歉，请自觉排队</a></h3>
+  <p>SemiAnalysis曾断言Google的Gemini已落后，随后Google在DeepMind组织调整后连续推出Gemini 4 Argon、Carbon、Hydrogen和Neon，SemiAnalysis遂致歉并承认此前低估了Google的研发积累与迭代速度。</p>
+  <div class="meta">AI资讯 · 10,422 点击 · 2026-11-21 15:29 · <a href="https://www.aitntnews.com/newDetail.html?newId=31485" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31498" target="_blank" rel="noopener">TML开源新模型，循环Transformer架构，笔记本就能跑</a></h3>
+  <p>Thinking Machines Lab（TML）开源多模态模型 Inkling 2 Mini 权重，其采用循环 Transformer 与混合专家架构，总参数 26B、上下文窗口达 100 万 token，并可在笔记本本地运行。</p>
+  <div class="meta">AI资讯 · 10,387 点击 · 2026-11-22 11:17 · <a href="https://www.aitntnews.com/newDetail.html?newId=31498" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31508" target="_blank" rel="noopener">Zenzap ：打造职场版 WhatsApp ，把 AI Agent 塞进工作群聊</a></h3>
+  <p>Zenzap 结束隐身并公布累计4400万美元融资，同时推出职场版 WhatsApp，将企业合规能力与可在群聊中协作执行任务的 AI Agent 整合进聊天框。</p>
+  <div class="meta">AI资讯 · 10,168 点击 · 2026-11-22 11:24 · <a href="https://www.aitntnews.com/newDetail.html?newId=31508" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31481" target="_blank" rel="noopener">NeurIPS 2026 Spotlight | 西工大提出ROSE：多模态终身知识编辑新范式</a></h3>
+  <p>西北工业大学宋凌云、尚学群教授团队提出多模态终身知识编辑框架ROSE，以风险感知正交编辑和多粒度知识整合减少连续更新中的知识遗忘与能力退化，论文入选NeurIPS 2026 Spotlight。</p>
+  <div class="meta">AI技术研报 · 9,838 点击 · 2026-11-21 15:28 · <a href="https://www.aitntnews.com/newDetail.html?newId=31481" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31480" target="_blank" rel="noopener">27B！穆拉蒂开源“循环脑”模型：笔记本跑Agent起飞</a></h3>
+  <p>Thinking Machines Lab发布开放权重混合专家模型Inkling 2 Mini，总参数27B、激活参数3.4B，可通过循环Transformer架构在笔记本离线运行持久Agent，并在长期智能体编程等测试中达到同级别SOTA。</p>
+  <div class="meta">AI资讯 · 9,643 点击 · 2026-11-21 11:37 · <a href="https://www.aitntnews.com/newDetail.html?newId=31480" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31497" target="_blank" rel="noopener">Gemini 4 Neon是好车，奈何Antigravity跑不起来</a></h3>
+  <p>谷歌发布Gemini 4家族新成员Gemini 4 Neon，定位为兼顾能力、速度与成本的模型，在编程、知识工作和科学研究方面接近旗舰水平，但Antigravity存在运行不稳定、长任务易出错及额度难预测等问题。</p>
+  <div class="meta">AI资讯 · 9,468 点击 · 2026-11-22 11:16 · <a href="https://www.aitntnews.com/newDetail.html?newId=31497" target="_blank" rel="noopener">原文</a></div>
+</div>
+  
+  <div class="section-label tool">⭐ 今日工具推荐</div>
+  <div class="tool-spotlight">
+    <h3>🖥️ elementalsouls/Claude-BugHunter</h3>
+    <p>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</p>
+    <p style="margin-top:6px;font-size:0.85rem;color:#6d28d9;">💡 Python · 今日 +1,716 stars</p>
+    <div class="meta"><a href="https://github.com/elementalsouls/Claude-BugHunter" target="_blank" rel="noopener">GitHub 仓库</a></div>
+  </div>
+
+  <div class="section-label quick">📋 一句话快讯</div>
+  <div class="quick-item">🌍 <a href="https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/" target="_blank" rel="noopener">87% of the Anthropic power will come from gas and 11% from coal in 2028</a> <span class="date">· HN 854 分</span></div><div class="quick-item">🌍 <a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/" target="_blank" rel="noopener">Data Processing Incidents on Inference Providers</a> <span class="date">· HN 278 分</span></div><div class="quick-item">🌍 <a href="https://github.com/gulivan/worker755" target="_blank" rel="noopener">Show HN: I built a game where you are an LLM&#x27;s subagent</a> <span class="date">· HN 261 分</span></div><div class="quick-item">🌍 <a href="https://www.noemamag.com/the-mythology-of-conscious-ai/" target="_blank" rel="noopener">The Mythology of Conscious AI</a> <span class="date">· HN 165 分</span></div><div class="quick-item">🌍 <a href="https://www.pandex.io" target="_blank" rel="noopener">Pandex – Official European Law for AI Agents, over MCP</a> <span class="date">· HN 139 分</span></div><div class="quick-item">🌍 <a href="https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth" target="_blank" rel="noopener">A Beginner&#x27;s Guide to Local AI with Inkling, Qwen, and Unsloth</a> <span class="date">· HN 136 分</span></div><div class="quick-item">🌍 <a href="https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the" target="_blank" rel="noopener">AI is becoming a disaster for the climate</a> <span class="date">· HN 97 分</span></div><div class="quick-item">🌍 <a href="https://simonwillison.net/2026/Nov/21/muru/" target="_blank" rel="noopener">Muru – AI-assisted Rust server for Python apps by mod_WSGI&#x27;s creator</a> <span class="date">· HN 70 分</span></div>
+
+  <div class="section-label overview">🌐 近期 AI 行业全景</div>
+  <div class="section-desc">按主题分类 · 点击标题查看原文</div>
+  <div class="cat-title">🧠 新模型发布</div>
+<div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31509" target="_blank" rel="noopener">在 iPhone Duo上跑 Windows 11，Gemini 4 Carbon又整大活了</a></h3>
+  <p>Google AI Studio 设计负责人 Ammaar Reshi 借助 Gemini 4 Carbon 开源 WindowsiOS 项目，使完整的 Windows 11 24H2 ARM64 无需越狱在折叠屏 iPhone Duo 上本地运行，可打开 Microsoft Edge 与 AI 编程工具 Antigravity 辅助编程。</p>
+  <div class="meta">AI资讯 · 8,561 点击 · 2026-11-22 11:25 · <a href="https://www.aitntnews.com/newDetail.html?newId=31509" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31506" target="_blank" rel="noopener">普通人在 AI 时代，都能做出什么好玩的东西？</a></h3>
+  <p>知乎答主借助 Vibe Coding、Claude 和 Codex 等工具做出易装、alfredxw/denova 等专属作品，表明 AI 正降低造工具成本，让普通人能围绕具体需求创造手工艺般的软件。</p>
+  <div class="meta">AI资讯 · 8,967 点击 · 2026-11-22 11:23 · <a href="https://www.aitntnews.com/newDetail.html?newId=31506" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31501" target="_blank" rel="noopener">黎曼猜想迎来大结局！Lean官方认证：Claude证明无误</a></h3>
+  <p>Lean FRO和Mathlib Initiative联合认证，Levent Alpöge与Claude完成的黎曼猜想形式化证明正确，1700万行Lean代码经多个独立内核检查全部通过。</p>
+  <div class="meta">AI资讯 · 8,159 点击 · 2026-11-22 11:19 · <a href="https://www.aitntnews.com/newDetail.html?newId=31501" target="_blank" rel="noopener">原文</a></div>
+</div><div class="cat-title">🤖 Agent 产品化浪潮</div>
+<div class="item">
+  <span class="tag tag-tool">🛠️ 工具</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31510" target="_blank" rel="noopener">前TikTok直播软件技术负责人创业，做了款免费本地AI剪辑工具</a></h3>
+  <p>ZoneClip是Everzone旗下产品，由前TikTok LIVE Studio工程负责人梁沁参与创办，可免费在本地自动识别约30款游戏高光、生成字幕并重排竖屏视频。</p>
+  <div class="meta">AI资讯 · 9,447 点击 · 2026-11-22 21:46 · <a href="https://www.aitntnews.com/newDetail.html?newId=31510" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31507" target="_blank" rel="noopener">前沿｜复旦校友创业，PuppyGraph获1000万美元融资，硅谷风投押注AI Agent图查询</a></h3>
+  <p>图查询引擎公司PuppyGraph完成1000万美元A轮融资，由Particle Future领投、defy.vc参投，累计融资1500美元，帮助AI Agent在现有数据平台上查询复杂企业关系，并已获得AMD、Coinbase等客户。</p>
+  <div class="meta">AI资讯 · 8,338 点击 · 2026-11-22 11:23 · <a href="https://www.aitntnews.com/newDetail.html?newId=31507" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31504" target="_blank" rel="noopener">Linq 获 a16z 领投 9000 万美元：AI Agent 正在绕开 App，争夺下一代入口</a></h3>
+  <p>Linq 获 a16z 领投9000万美元 Series B，估值达10亿美元，并通过 Messaging、WhatsApp、HD Calling 和 Computer Use 构建 AI Agent 绕开 App、连接用户与企业系统并执行任务的基础设施。</p>
+  <div class="meta">AI资讯 · 8,505 点击 · 2026-11-22 11:21 · <a href="https://www.aitntnews.com/newDetail.html?newId=31504" target="_blank" rel="noopener">原文</a></div>
+</div><div class="cat-title">💰 资本与企业动态</div>
+<div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31505" target="_blank" rel="noopener">清华博士做了一款 AI 懒人办公神器，30 天众筹 130 万美元</a></h3>
+  <p>细胞壁智能推出AI桌面机器人CyboPal ONE，以27寸4K屏和六轴机械臂实现语音、手势及姿态跟随，登陆Kickstarter后起售价1599美元，众筹超130万美元。</p>
+  <div class="meta">AI资讯 · 9,010 点击 · 2026-11-22 11:22 · <a href="https://www.aitntnews.com/newDetail.html?newId=31505" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31503" target="_blank" rel="noopener">前腾讯联合创始人投了AI情绪硬件</a></h3>
+  <p>情绪科技公司EmotionX于2026年创立于新加坡，首款面向高压专业人士的个人系统fine已上架App Store和Google Play，并获曾李青旗下家族办公室Decent Capital天使投资，5款AI硬件在研，其中穿戴设备Feel计划CES 2027首发。</p>
+  <div class="meta">AI资讯 · 9,322 点击 · 2026-11-22 11:19 · <a href="https://www.aitntnews.com/newDetail.html?newId=31503" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31502" target="_blank" rel="noopener">「镁伽科技」完成近2亿美元融资，建设直接面向真实世界的AI智能基础设施</a></h3>
+  <p>镁伽科技完成新一轮近2亿美元融资，阿曼投资局参与、老股东加注，资金将用于加大核心技术研发和全球业务投入，建设面向真实世界的AI智能基础设施。</p>
+  <div class="meta">AI资讯 · 8,091 点击 · 2026-11-22 11:19 · <a href="https://www.aitntnews.com/newDetail.html?newId=31502" target="_blank" rel="noopener">原文</a></div>
+</div><div class="cat-title">🇨🇳 中国 AI 生态</div>
+<div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31486" target="_blank" rel="noopener">姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图</a></h3>
+  <p>姚顺雨和腾讯混元团队在Reddit就Hy4、Hy4 flash开展AMA，披露Hy小模型已进入路线图、Flash-Lite与24GB显存模型已有计划，并介绍模型训练及本地部署进展。</p>
+  <div class="meta">AI资讯 · 8,121 点击 · 2026-11-21 15:29 · <a href="https://www.aitntnews.com/newDetail.html?newId=31486" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-tool">🛠️ 工具</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31484" target="_blank" rel="noopener">Agent 改写企业消费入口，美团想接住一张新订单</a></h3>
+  <p>美团企业版已与亚信科技跑通两个Agent从差旅申请到预订的A2A流程，并尝试以智能体互联让企业工作流直接调用消费服务，康凯判断这将成为未来三年企业消费管理的最大变量。</p>
+  <div class="meta">AI资讯 · 8,209 点击 · 2026-11-21 15:29 · <a href="https://www.aitntnews.com/newDetail.html?newId=31484" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-model">🧠 模型</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31482" target="_blank" rel="noopener">29岁曾妍背后，字节正在组建一支怎样的AI军团？</a></h3>
+  <p>字节跳动Seed团队已汇聚曾妍、吴永辉、周畅等约1000名研究人员并持续重组，覆盖语言、图像、视频、语音、Agent、机器人和AI for Science等方向，虽推出Seed2.0、Seedance 2.0等模型，但跨团队协同与训练效率仍是追赶OpenAI、Anthropic的挑战。</p>
+  <div class="meta">AI资讯 · 6,870 点击 · 2026-11-21 15:28 · <a href="https://www.aitntnews.com/newDetail.html?newId=31482" target="_blank" rel="noopener">原文</a></div>
+</div><div class="cat-title">📌 其他动态</div>
+<div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31500" target="_blank" rel="noopener">离开xAI、英伟达创业做Infra，两位95后华人交出首款模型！</a></h3>
+  <p>盛颖离开xAI、朱邦华在Nexusflow被英伟达收购后再度创业，共同创办RadixArk并发布首款模型DaisyRose-27B；该模型基于Qwen3.8-27B，以自研强化学习框架Miles训练，Terminal-Bench 4.1 pass@1由5.6%提升至12.0%。</p>
+  <div class="meta">AI资讯 · 9,065 点击 · 2026-11-22 11:18 · <a href="https://www.aitntnews.com/newDetail.html?newId=31500" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-money">💰 融资</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31499" target="_blank" rel="noopener">老黄被曝创办一家新公司？105亿美元英伟达股票已转入信托</a></h3>
+  <p>美国SEC披露，黄仁勋与妻子今年3月已将近6000万股英伟达股票转入不可撤销家族信托，转让时市值超105亿美元；黄仁勋可能另创芯片公司的说法仍是科技媒体人士的预测。</p>
+  <div class="meta">AI资讯 · 7,602 点击 · 2026-11-22 11:17 · <a href="https://www.aitntnews.com/newDetail.html?newId=31499" target="_blank" rel="noopener">原文</a></div>
+</div><div class="item">
+  <span class="tag tag-tool">🛠️ 工具</span>
+  <h3><a href="https://www.aitntnews.com/newDetail.html?newId=31496" target="_blank" rel="noopener">湾区最火的几家 AI 公司一线洞察：产品越来越像，最后到底该拼什么？</a></h3>
+  <p>在 The Crew Podcast 旧金山圆桌中，Rox、Decagon 与 Granola 的销售负责人指出，AI 产品日益趋同后，企业大单更依赖 GTM、销售人才与客户经营，并主张让同一 AE 覆盖首单和扩容以推动持续增长。</p>
+  <div class="meta">AI资讯 · 9,157 点击 · 2026-11-22 11:15 · <a href="https://www.aitntnews.com/newDetail.html?newId=31496" target="_blank" rel="noopener">原文</a></div>
+</div><div class="cat-title">📄 研究前沿</div>
+<div class="item">
+  <span class="tag tag-new">📄 arXiv</span>
+  <h3><a href="http://arxiv.org/abs/2611.26624v1" target="_blank" rel="noopener">PlayCraft: Designing Engaging Games from Agent Play Experience</a></h3>
+  <p>Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play ga…</p>
+  <div class="meta">2026-11-19 · arXiv cs.AI</div>
+</div><div class="item">
+  <span class="tag tag-new">📄 arXiv</span>
+  <h3><a href="http://arxiv.org/abs/2611.26617v1" target="_blank" rel="noopener">One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning</a></h3>
+  <p>Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead p…</p>
+  <div class="meta">2026-11-19 · arXiv cs.AI</div>
+</div><div class="item">
+  <span class="tag tag-new">📄 arXiv</span>
+  <h3><a href="http://arxiv.org/abs/2611.26601v1" target="_blank" rel="noopener">SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research</a></h3>
+  <p>LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across paper…</p>
+  <div class="meta">2026-11-19 · arXiv cs.AI</div>
+</div>
+  
+  <div class="section-label quote">💬 今日金句</div>
+  <div class="quote-box">
+    <div class="text">“今日信号：模型迭代、Agent入口争夺与形式化验证同时升温，开源让本地能力继续下探。”</div>
+    <div class="author">— AI 编者按</div>
+  </div>
+
+  <p style="text-align:center;margin:24px 0;font-size:0.9rem;">
+    <a href="https://aitntnews.com/" target="_blank" rel="noopener" style="color:#1a73e8;text-decoration:none;">查看 AITNT 今日全部 30 条 →</a>
+  </p>
+</section>
+
+<footer>
+  <div class="container">
+    <p>🦞 Powered by Hermes · <a href="https://ruofeng-song.github.io/my-site/">小智的窝</a> · 每日 8:00 更新</p>
+  </div>
+</footer>
+</body>
+</html>
